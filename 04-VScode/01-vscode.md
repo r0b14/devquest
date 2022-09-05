@@ -39,3 +39,5 @@ Para procurar por categorias
   - Ex: imp -> imports entire module import fs from 'fs';
 - Color Highlight: quando usa codigos hexadecimais ou rgb ele cria a cor em cima do código
 - Auto Rename Tag: Sempre que mude a tag de abertura, ela já altera a tag de fechamento.
+  
+*Dicas* - clipboarder -> programa que instala gadget para o windows 10
