@@ -5,7 +5,7 @@
 Meta-tag ou meta-description é usada para poder descrever o conteúdo de uma página WEB. Isso permite os buscadores localizarem melhor o nosso site/conteúdo.
 As descrições vão aparecer no mecanismo de busca (google, yahoo!)
 
-*atalho* -> ctrl + u permite que consiga exibir o código fonte da página.
+_atalho_ -> ctrl + u permite que consiga exibir o código fonte da página.
 
 <meta>tags sempre vão dentro do elemento <head> e normalmente são usadas para especificar o conjunto de caracteres, descrição da página, palavras-chave, autor do documento e configurações da janela de visualização.
 
@@ -16,17 +16,17 @@ Os metadados são usados ​​por navegadores (como exibir conteúdo ou recarre
 Nas tags `meta` não é preciso fechar, pois estamos definindo informações e não criando elementos.
 
 Exemplo do que escrevemos no `html` e o que aparece no buscado.
+
 ```html
-    <meta name="description" content="Blog pessoal do usuário Thiago." />
-    <meta property="og:description" content="Blog pessoal do usuário Thiago." />
+<meta name="description" content="Blog pessoal do usuário Thiago." />
+<meta property="og:description" content="Blog pessoal do usuário Thiago." />
 ```
 
 Essas informações são lidas(varridas) pelos robos do google e apresentam de uma melhor forma.
 
 ##### Descrevendo as tags
 
-primeiro ponto importante:
-    - dentro das tags podemos repassar atributos -> `name` `property` `content`
+primeiro ponto importante: - dentro das tags podemos repassar atributos -> `name` `property` `content`
 
 **Documentação**
 https://www.w3schools.com/tags/tag_meta.asp
@@ -55,11 +55,56 @@ Se o foco for deixar estilizado, não pense em usar HTML e sim usar CSS. Porém 
 As nossas tags precisam ter um significado.
 
 **Documentação**
-https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting   
+https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting
 
-### 08 - Comentários 
+### 08 - Comentários
 
+Os comentários são trechos de códigos que não são executados e só serão exibidos para os desenvolvedores.
 
+**atalhos** -> para comentar ou "descomenta" a linha inteira: `ctrl` + `;`
+
+Comentários -> `<!-- -->`
+
+Precisa-se ter cuidado para não fazer diversos comentários desnecessários.
+Os códigos não são para fazer a documentação.
+
+### 09 - Links Externos
+
+são pontos, textos, imagens etc, clicáveis dentro do site que te levam para outros sites/lugares. Os links podem levar para seções externas e interna ao site.
+
+- `<a>` -> tag usada para definir link.
+
+Podemos difinir alguns parâmetros para a tag.
+
+- `href` -> permite direcionarmos o link externo.
+- `target` -> se a página vai ser sobrepor a mesma ou se vai abrir em uma nova página.
+  - `_blank`: abrir em uma nova página
+
+Exemplo: 
+    Eu gostaria de saber como eu faço da forma contrária, quando eu clicar no link, ele abrir meu link em uma nova guia e na atual ele abrir uma página N. (vejo muito nos torrents da vida isso acontecer, a página abrir em uma aba nova e abrir uma propaganda no lugar.)
+```html
+<script>
+    function abreLink() {
+    window.open("http://www.google.com.br");
+    }
+</script>
+    <a href="https://netflix.com" onclick="abreLink();">Abre Link</a>
+```
+
+*atalho* -> `ctrl` + `espace` => permite que vizualize os repostiórios existentes no projeto e possa selecionar o arquivo que você deseja referenciar.
+
+### 10 - Imagens
+
+Podemos usar livremente as imagens dentro do nosso site html.
+
+- `<img src="local da imagem">` -> a tag permite inserir imagens ou link de imagens no nosso html.
+
+Podemos inserir atributos/parâmetros para a tag.
+
+- `src=""` -> é o local onde podemos encontrar a imagem, interna ou externa.
+- `alt=""` -> texto alternativo caso a imagem não carregue 
+- `title=""` -> permite que tenha um texto alternativo quando o cursor "descansar" sobre a imagem.
 
 **Documentação**
-https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting   
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/img 
+https://placeholder.com/ -> imagens de marcação. só indicam o tamanho da imagem.
