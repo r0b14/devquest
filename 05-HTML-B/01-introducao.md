@@ -108,3 +108,23 @@ Podemos inserir atributos/parâmetros para a tag.
 **Documentação**
 https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/img 
 https://placeholder.com/ -> imagens de marcação. só indicam o tamanho da imagem.
+
+
+### 11 - Listas
+
+Temos dois tipos de listas: as não ordenadas e as ordenadas.
+
+**Não Ordenadas**
+Uma lista que não tem ordem, geralmente compõe bolinhas, linhas.
+O estilo da forma de ordenação pode ser editado pelo CSS.
+Exemplo:
+    Lista de supermercado.
+
+*atalho* -> `ul>li*4` => criando um `ul` + 4`li`
+*atalho* -> `ctrl` + `;` => no momento que está digitando, destrincha o que quer dizer a função.
+
+**Não Ordenadas**
+
+
+**Documentação**
+https://www.w3schools.com/html/html_lists.asp 
