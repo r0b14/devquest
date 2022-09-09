@@ -120,11 +120,30 @@ O estilo da forma de ordenação pode ser editado pelo CSS.
 Exemplo:
     Lista de supermercado.
 
+- `<ul>` -> Inicializada a lista não ordenada
+- `<li>` -> Usado para categorizar os itens.
+
 *atalho* -> `ul>li*4` => criando um `ul` + 4`li`
 *atalho* -> `ctrl` + `;` => no momento que está digitando, destrincha o que quer dizer a função.
 
-**Não Ordenadas**
+**Ordenadas**
+Uma lista que tem ordem, geralmente composta por números naturais, alfabetos ou algarismo romano.
+O estilo da forma de ordenação pode ser editado pelo CSS.
+Exemplo:
+    Lista de prioridades, rank.
 
+- `<ol>` -> Inicializada a lista ordenada
+- `<li>` -> Usado para categorizar os itens.
 
 **Documentação**
 https://www.w3schools.com/html/html_lists.asp 
+https://www.devmedia.com.br/listas-em-html/23853
+
+### 12 - Tabelas
+
+As tabelas são usadas de sua forma tradicional.
+
+*atalho* -> `table>tr>td*3` => criará uma sequência de tabelas 
+
+**Documentação**
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/tfoot
