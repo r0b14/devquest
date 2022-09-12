@@ -1,4 +1,4 @@
-## Tags HTML
+# Tags HTML
 
 #### 05 - Meta tags - configurando informações da sua página
 
